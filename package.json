@@ -4,8 +4,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "engines": {
     "node": ">=10"
@@ -33,12 +32,15 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
+  "author": {
+    "name": "sunmoon-a11y",
+    "email": "sunmoon19920211@gmail.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus.git"
+    "url": "git+https://github.com/sunmoon-a11y/easy-nav-progress.git"
   },
   "name": "easy-nav-progress",
-  "author": "sunmoon",
   "module": "dist/easy-nav-progress.esm.js",
   "size-limit": [
     {
