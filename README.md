@@ -1,4 +1,4 @@
-# easy-progress
+# easy-nav-progress
 
 > A simple top navigation transition progress bar.
 
