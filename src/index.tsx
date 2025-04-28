@@ -52,7 +52,6 @@ const ProgressBarContext = createContext<{
   start: () => null
 })
 
-
 export default function ProgressBarProvider({ children }: { children: ReactNode }) {
   const domRef = useRef<HTMLElement | null>(null)
 
@@ -105,3 +104,4 @@ export default function ProgressBarProvider({ children }: { children: ReactNode 
 export const useProgressBar = () => {
   return useContext(ProgressBarContext)
 }
+
